@@ -28,7 +28,7 @@ export default function Homepage() {
 
 	return (
 		<div>
-			<Navbar />
+			
 
 			{/* Hero Section */}
 			<section className="bg-gradient-to-r from-primary to-primary py-16 px-6 text-center text-white">
@@ -42,14 +42,14 @@ export default function Homepage() {
 				</p>
 				<div className="flex flex-col sm:flex-row justify-center gap-6 font-bold text-lg mt-6">
 					<Link
-						to="#"
-						className="bg-tertiary flex items-center justify-center gap-3 rounded-lg px-6 py-3"
+						to="/upload"
+						className="bg-tertiary flex items-center justify-center gap-3 rounded-lg px-6 py-3 transition transform hover:scale-110 duration-200"
 					>
 						<Upload /> Upload Design
 					</Link>
 					<Link
-						to="#"
-						className="bg-secondary flex items-center justify-center gap-3 rounded-lg px-6 py-3"
+						to="/custom"
+						className="bg-secondary flex items-center justify-center gap-3 rounded-lg px-6 py-3 transition transform hover:scale-110 duration-200"
 					>
 						<Palette /> Request Custom Design
 					</Link>
